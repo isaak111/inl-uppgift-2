@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: navy;
+}
+
+#header-picture {
+    margin: 10px;
+    border: 8px solid orange;
+    width: 35%;
+    max-width: fit-content; 
+}
+
+.main-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   border-bottom: 8px orange solid;
+   background-color: navy;
+   height: 21vh;
+}
+
+.navbar li {
+    display: inline;
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;  
+}
+   
+
+ul {
+    border: 8px solid orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    width: 60%;
+    display:flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+  
+    width: 60%;
+}
+
+.main-container {
+    display: flex;
+    background-color: navy;
+    margin: auto;  
+}
+
+.page-under-header { 
+    width: 35%;
+    background-color: blue;
+    height: 79vh;
+    margin: auto;
+}
+
+.picture-big {
+display: flex;
+}
+  
+
+
+#harry-big {
+    border: 8px solid orange;
+    justify-content: left;
+    width: 100%;
+    display:block;
+    height: 79vh;
+    margin: 10px;
+ 
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    padding:15px;
+    border: 8px solid orange; 
+}
+
+.breadtext{
+    overflow-y:auto; 
+}
+
+#text{
+    display: flex;
+    border: 8px solid orange;
+    padding: 20px;
+    height: 62vh;
+    letter-spacing: 2px;
+    line-height: 30px;
+    overflow: auto;
+    text-align: left;
+}
+
+.button-div{
+   display: flex;
+   justify-content: center; 
+}
+
+#button{
+    width: 100%;
+    height: 10.5vh;
+    background-color: red;
+    border: 8px solid orange;   
+    color: white;
+    font-size: 50px;
+}
+
+#button:hover {
+    background-color:gray; 
+    color: white;   
+}
+ a:hover {
+    color: black;
+ }
